@@ -7,5 +7,10 @@ $('.header_slider').slick({
     autoplay:2000
     
   
+});
+
+$('.menu_btn').on('click',function(){
+$('.menu__list').slideToggle();
 })
+
 });
